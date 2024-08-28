@@ -1,0 +1,52 @@
+body{
+    background-image: url(Neon.jpg);
+    background-size: cover;
+    margin-top: 2vh;
+    display: grid;
+    place-items: center;
+}
+header{
+    background-color:rgba(255, 255, 255, 0.61);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2vh;
+    padding: 2em 0 2em 0;
+    border-radius: 10%;
+    width: 40vw;
+    align-items: center;
+    align-self: center;
+    transition: 0.8s;
+}
+
+.hearder:hover{
+    size: 30%;
+}
+
+.songs{
+    position: center;
+    width: 30vw;
+    height: 5vh;
+    background-color:rgba(255, 255, 255, 0.61);
+    margin-top: 1vh;
+    border-radius: 2em;
+    text-align:right;
+    border: 0;
+    transition: 0.8s;
+    text-align: center;
+    image-rendering: pixelated;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    align-content: center;
+}
+
+.songs:hover{
+    color: aqua;
+    cursor: pointer;
+    width: 50vw;
+}
+
+.pic:hover{
+    transition: 0.8s;
+    size: 110%;
+}
