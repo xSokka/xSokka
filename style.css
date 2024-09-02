@@ -1,52 +1,33 @@
 body{
-    background-image: url(Neon.jpg);
+    background-image: url(61_Animal_wallpaper_1920x1080px.jpg);
     background-size: cover;
     margin-top: 2vh;
     display: grid;
     place-items: center;
 }
-header{
-    background-color:rgba(255, 255, 255, 0.61);
+header:hover{
+    transition: 0.8s;
+    size: 110%;
+}
+.header{
+    margin-top: 20%;
+    background-color:rgba(0, 0, 0, 0.808);
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 2vh;
-    padding: 2em 0 2em 0;
-    border-radius: 10%;
     width: 40vw;
     align-items: center;
     align-self: center;
-    transition: 0.8s;
+    transition: 1.5s;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
 }
 
-.hearder:hover{
-    size: 30%;
-}
-
-.songs{
-    position: center;
-    width: 30vw;
-    height: 5vh;
-    background-color:rgba(255, 255, 255, 0.61);
-    margin-top: 1vh;
-    border-radius: 2em;
-    text-align:right;
-    border: 0;
-    transition: 0.8s;
-    text-align: center;
-    image-rendering: pixelated;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-    align-content: center;
-}
-
-.songs:hover{
-    color: aqua;
-    cursor: pointer;
-    width: 50vw;
-}
-
-.pic:hover{
-    transition: 0.8s;
-    size: 110%;
+.icon{
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
