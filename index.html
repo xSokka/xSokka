@@ -1,38 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xSokka</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>YouTube Video Info Viewer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="title">
-        <div class="pfp">
-            <img class="pfpFoto" src="https://avatars.akamai.steamstatic.com/cbcb4079d92d68e5fbec3ced8c2ac9fb5f65ee38_full.jpg">
-        </div>
-        <h1 class="pfpName"><span class="fire">xS</span><span class="burn">ok</span><span class="burn">k</span><span class="fire">a</span></h1>
-    </div>
-    <header class="header">
-        <div class="pic">
-            <a href="https://steamcommunity.com/id/xSokka/">
-                <img id="logoSteam" src="IMG/steamLogo.png" width="18%" class="icon" >
-            </a>
-            <a href="https://discordapp.com/users/984207402389872660">
-                <img id="logoDiscord" src="IMG/discordLogo.png" width="17%" class="icon">
-            </a>
-            <a href="https://www.faceit.com/en/players/Robinjogames/stats/cs2">
-                <img id="logoFaceit" src="IMG/faceitLogo.svg" width="17%" class="icon">
-            </a>
-            <a href="https://www.chess.com/member/dannysamba69">
-                <img id="logoChessDotCom" src="IMG/chessLogo.png" width="17%" class="icon">
-            </a>
-
-            
-        </div>
-    </header>
-    <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
-    <script src="index.js"></script>
+  <div class="container">
+    <h2>YouTube Video Info Viewer</h2>
+    <input type="text" id="youtubeLink" placeholder="Paste YouTube link here">
+    <br>
+    <button onclick="getVideoInfo()">Submit</button>
+    <div id="result"></div>
+  </div>
+  <a href="Files/The Weekend - Starboy ( slowed  Reverb ).mp3" download>DOWNLOAD</a>
+<script src="script.js"></script>
 </body>
 </html>
